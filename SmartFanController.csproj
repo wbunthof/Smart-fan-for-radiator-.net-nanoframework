@@ -4,6 +4,8 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>SmartFanController</RootNamespace>
     <AssemblyName>SmartFanController</AssemblyName>
+    <AssetTargetFallback>net</AssetTargetFallback>
+    <GenerateManifests Condition="'$(OS)' != 'Windows_NT'">false</GenerateManifests>
   </PropertyGroup>
 
   <ItemGroup>
